@@ -1,0 +1,55 @@
+{
+    "packages": [
+        {
+            "name": "digitalstars/simplevk",
+            "version": "v2.14.0",
+            "version_normalized": "2.14.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/digitalstars/simplevk.git",
+                "reference": "f30bd3c6da8d62ea71e6c64349511b34f8161b50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/digitalstars/simplevk/zipball/f30bd3c6da8d62ea71e6c64349511b34f8161b50",
+                "reference": "f30bd3c6da8d62ea71e6c64349511b34f8161b50",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.6"
+            },
+            "time": "2021-01-19T16:50:45+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "DigitalStar\\vk_api\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ZeRoX",
+                    "email": "as234zx15@yandex.ru"
+                },
+                {
+                    "name": "Runnin",
+                    "email": "mr.kirilll12@mail.ru"
+                }
+            ],
+            "description": "Library for easy work with VK com api",
+            "support": {
+                "issues": "https://github.com/digitalstars/simplevk/issues",
+                "source": "https://github.com/digitalstars/simplevk/tree/v2.14.0"
+            },
+            "install-path": "../digitalstars/simplevk"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
